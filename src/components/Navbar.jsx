@@ -2,8 +2,8 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <nav>
-            <ul>
+        <nav className="navbar">
+            <ul className='nav-links'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>

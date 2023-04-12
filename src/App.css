@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+/* custom css */
+
+/* nav */
+.navbar {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links{
+  display: flex;
+  /* justify-content: right; */
+  list-style: none;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  left: 0;
+  right: 0;
+}
